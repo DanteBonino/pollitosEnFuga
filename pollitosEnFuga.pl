@@ -102,6 +102,7 @@ unoSabeVolarYElOtroNo(Profesion,OtraProfesion):-
 unoSabeVolarYElOtroNo(Profesion,OtraProfesion):-
     sabeVolar(OtraProfesion),
     not(sabeVolar(Profesion)).
+
 tipoDeAnimalQueViveEn(Animal, Granja,Tipo):-
     viveEn(Animal,Granja),
     animal(Animal, Tipo).
